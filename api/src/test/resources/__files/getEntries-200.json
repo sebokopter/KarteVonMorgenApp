@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ff20f44776c0486682bc2e926d6d2bb3",
+    "created": 1524646051,
+    "version": 10,
+    "title": "SoLaWiS - Solidarische Landwirtschaft Stuttgart",
+    "description": "Gemeinsam mit dem Reyerhof hat die Initiative \"SoLaWiS\" die Idee des Solidarischen Landwirtschaftens umgesetzt und trägt zu nachhaltiger, ökologischer, regionaler und saisonaler Lebensmittelversorgung bei. Mach mit! :)",
+    "lat": 48.7244278,
+    "lng": 9.14492801713147,
+    "street": "Unteraicher Straße 8",
+    "zip": "70567",
+    "city": "Stuttgart",
+    "country": null,
+    "email": "mail@solawis.de",
+    "telephone": null,
+    "homepage": "http://www.solawis.de",
+    "categories": [
+      "2cd00bebec0c48ba9db761da48678134"
+    ],
+    "tags": [
+      "csa",
+      "honig",
+      "demeter",
+      "solawi",
+      "teikei",
+      "socent"
+    ],
+    "ratings": [
+      "60ab3f52c21a444d8fcb90417b5e98a7",
+      "0263aa5485b74e8283e9f1784416b838",
+      "7f0809130cc6454dba395d144fa7c5fd",
+      "3aab025d29a946f7ae9a50640097d15c",
+      "225505c885ca473b88767e14289a92f5"
+    ],
+    "license": "CC0-1.0",
+    "image_url": null,
+    "image_link_url": null
+  },
+  {
+    "id": "7efb0bd2773246b8a27d67bf258bc59a",
+    "created": 1543259563,
+    "version": 7,
+    "title": "Unverpackt Kiel",
+    "description": "Lebensmittel, Kosmetikprodukte und mehr\nSie waren die Ersten in Deutschland. Das Beratungsangebot richtet sich an Existenzgründer oder existierende Lebensmittelläden, die einen Teil ihres Sortiments auf unverpackte Waren umstellen möchten.\n",
+    "lat": 54.32077859967188,
+    "lng": 10.125741362571716,
+    "street": "Adelheidstraße 28",
+    "zip": "24103",
+    "city": "Kiel",
+    "country": null,
+    "email": null,
+    "telephone": null,
+    "homepage": "http://www.unverpackt-kiel.de/",
+    "categories": [
+      "77b3c33a92554bcf8e8c2c86cedd6f6f"
+    ],
+    "tags": [
+      "fairnetzt",
+      "kiel",
+      "saisonal",
+      "regional",
+      "ökologisch",
+      "biologisch",
+      "unverpackt",
+      "bio",
+      "foodsharing",
+      "ernährungsdemokratie",
+      "ernährungsrat",
+      "ernährungswende",
+      "agrarwende"
+    ],
+    "ratings": [
+      "15838fdaff4b4375b17ee9e87438c831",
+      "fc7d58fa4d204431907cb646926126bb",
+      "f8166260ab744879b3ccfabcfe8e305a",
+      "84256490c24c4192955811363d27403d"
+    ],
+    "license": "CC0-1.0",
+    "image_url": "http://fairnetz-kiel.de/wp-content/uploads/2017/11/fure2_2-02-300x300.png",
+    "image_link_url": "http://fairnetz-kiel.de/project/unverpackt/"
+  }
+]

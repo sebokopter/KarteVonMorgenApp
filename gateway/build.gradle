@@ -1,0 +1,28 @@
+plugins {
+    id 'java-library'
+    id 'jacoco'
+}
+
+dependencies {
+    implementation project(':api')
+    implementation project(':core')
+    implementation('com.google.code.findbugs:jsr305:3.0.2') {
+        because 'Nonnull and Nullable annotation'
+    }
+
+    testRuntime 'org.junit.jupiter:junit-jupiter-engine:5.4.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.4.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.4.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-migrationsupport:5.3.2'
+}
+
+compileJava   {
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+}
+
+test {
+    useJUnitPlatform {
+        if (System.getenv('CI') == "true") excludeTags 'network'
+    }
+}

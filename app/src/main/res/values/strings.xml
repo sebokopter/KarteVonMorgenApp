@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KarteVonMorgen</string>
+    <string name="title_activity_maps">Karte</string>
+    <string name="minimum_latitude">Minimum Latitude</string>
+    <string name="minimum_longitdue">Minimum Longitdue</string>
+    <string name="maximum_latitude">Maximum Latitude</string>
+    <string name="maximum_longitude">Maximum Longitude</string>
+    <string name="search">Suche</string>
+</resources>
