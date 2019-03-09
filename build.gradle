@@ -1,0 +1,27 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.2'
+    }
+}
+
+plugins {
+    id 'org.sonarqube' version '2.7'
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+allprojects {
+    apply plugin: 'org.sonarqube'
+    repositories {
+        mavenCentral()
+        google()
+        jcenter()
+    }
+}

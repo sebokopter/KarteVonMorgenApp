@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+v26 changelog:
+- added autofillHints=none
+-->
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".poi.list.PoiListActivity"
+    >
+
+    <EditText
+        android:id="@+id/edit_text_min_lat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="none"
+        android:hint="@string/minimum_latitude"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_min_lon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/minimum_longitdue"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_text_min_lat"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_max_lat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="none"
+        android:hint="@string/maximum_latitude"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_text_min_lon"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_max_lon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:autofillHints="none"
+        android:hint="@string/maximum_longitude"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_text_max_lat"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/edit_text_max_lon"
+        android:text="@string/search"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+</android.support.constraint.ConstraintLayout>
